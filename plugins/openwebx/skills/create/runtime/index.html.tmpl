@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{LANG}}" class="no-js" data-scheme="{{SCHEME}}" data-arrival="{{ARRIVAL}}" data-reading="{{READING}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+{{HEAD_META}}
+  <meta name="theme-color" content="{{THEME_COLOR}}">
+  <meta name="generator" content="openwebx {{VERSION}}">
+  <link rel="icon" href="{{FAVICON}}">
+{{FONT_LINKS}}
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/openwebx.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+    (function (d) {
+      var unhold = function () { d.classList.remove('ox-hold'); };
+      var ready = function () { return window.__openwebx && window.__openwebx.ready; };
+      // Busy only while the runtime is expected: pages without JavaScript never carry it.
+      document.addEventListener('DOMContentLoaded', function () {
+        var main = document.getElementById('content');
+        if (main && !ready() && !d.classList.contains('ox-failsafe')) main.setAttribute('aria-busy', 'true');
+      });
+      if (d.getAttribute('data-arrival') === 'hold-title' && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+        d.classList.add('ox-hold');
+        setTimeout(unhold, {{HOLD_MS}});
+      }
+      setTimeout(function () {
+        if (ready()) return;
+        d.classList.add('ox-failsafe');
+        unhold();
+        var main = document.getElementById('content');
+        if (main) main.removeAttribute('aria-busy');
+      }, {{FAILSAFE_MS}});
+    })(document.documentElement);
+  </script>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+{{MODULE_PRELOAD}}
+  <script type="importmap">
+{{IMPORTMAP}}
+  </script>
+  <script type="module" src="src/main.js"></script>
+  <script type="application/ld+json">
+{{JSONLD}}
+  </script>
+  <script type="application/json" id="openwebx-brief">
+{{RUNTIME_BRIEF}}
+  </script>
+  <noscript><style>.ox-stage, .ox-tag { display: none !important; }</style></noscript>
+</head>
+<body>
+  <a class="ox-skip" href="#content">{{SKIP_LABEL}}</a>
+  <canvas class="ox-stage" id="ox-stage" aria-hidden="true"></canvas>
+  <div class="ox-atmos" aria-hidden="true"></div>
+{{TAG_LAYER}}
+  <main id="content">
+{{CHAPTERS}}
+  </main>
+  <p class="ox-status ox-sr-only" role="status"></p>
+
+  <footer class="ox-footer">
+    {{FOOTER}}
+  </footer>
+</body>
+</html>

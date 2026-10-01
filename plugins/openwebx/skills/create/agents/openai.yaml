@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenWebX Create"
+  short_description: "Themed interactive 3D site from any content"
+  default_prompt: "Use $create to build an interactive 3D showcase in the theme I name from the content folder I give."

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "openwebx",
+  "description": "Turn any content into a premium interactive 3D web experience in any theme. Give a theme and a file or folder; a director, builder and critic agent team proposes concepts, grills you with pop-up choices, builds a Three.js site on a tested runtime kit and QA-checks it in a real browser.",
+  "version": "0.2.0",
+  "author": {
+    "name": "BIQDADDY",
+    "url": "https://biqdaddy.com"
+  },
+  "license": "MIT",
+  "keywords": ["threejs", "webgl", "creative-coding", "landing-page", "showcase", "generative-art", "seo", "thai"],
+  "skills": ["./skills/"]
+}

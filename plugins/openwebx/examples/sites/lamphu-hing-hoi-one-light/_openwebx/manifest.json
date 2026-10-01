@@ -1,0 +1,11 @@
+{
+  "openwebx": "0.2.0",
+  "three": "0.170.0",
+  "gsap": "3.13.0",
+  "theme": "นาฬิกากลไกในสตูดิโอถ่ายสินค้ายามค่ำ แรงบันดาลใจจากหิ่งห้อยบนต้นลำพูริมคลอง",
+  "slug": "lamphu-hing-hoi-one-light",
+  "built": "2026-10-01",
+  "sources": [
+    "plugins\\openwebx\\examples\\content\\product-watch-th\\lamphu-hing-hoi.md"
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+openwebx-out/
+!plugins/openwebx/examples/sites/
+.DS_Store
+Thumbs.db
+.tmp/
+.playwright-mcp/
+dist/

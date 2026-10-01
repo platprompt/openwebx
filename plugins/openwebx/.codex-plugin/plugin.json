@@ -1,0 +1,23 @@
+{
+  "name": "openwebx",
+  "version": "0.2.0",
+  "description": "Turn any content into a premium interactive 3D web experience in any theme. Give a theme and a file or folder; a director, builder and critic agent team proposes concepts, grills you with pop-up choices, builds a Three.js site on a tested runtime kit and QA-checks it in a real browser.",
+  "author": {
+    "name": "BIQDADDY"
+  },
+  "keywords": ["threejs", "webgl", "creative-coding", "showcase"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OpenWebX",
+    "shortDescription": "Themed interactive 3D sites from your content",
+    "longDescription": "Ingests a content file or folder, proposes themed concepts from ten archetypes, asks one round of recommended-first questions, writes a creative brief, scaffolds a Three.js runtime kit with verbatim SEO content, builds the scene and verifies it in a browser.",
+    "developerName": "BIQDADDY",
+    "category": "Design",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Use $create to build a showcase in an epic fantasy theme from ./content.",
+      "Use $create to turn this portfolio JSON into a minimal luxury 3D gallery.",
+      "Use $grill-me to deepen the art direction of openwebx-out/my-site."
+    ]
+  }
+}

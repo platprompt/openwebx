@@ -1,0 +1,21 @@
+{
+  "name": "openwebx",
+  "owner": {
+    "name": "BIQDADDY",
+    "url": "https://biqdaddy.com"
+  },
+  "description": "Free plugins for building creative interactive web experiences with AI.",
+  "plugins": [
+    {
+      "name": "openwebx",
+      "source": "./plugins/openwebx",
+      "description": "Turn any content into a premium interactive 3D web experience in any theme, with pop-up art direction, a tested runtime kit and browser QA.",
+      "version": "0.2.0",
+      "author": {
+        "name": "BIQDADDY"
+      },
+      "license": "MIT",
+      "category": "design"
+    }
+  ]
+}

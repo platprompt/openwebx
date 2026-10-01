@@ -1,0 +1,56 @@
+{
+  "title": "Halden & Vey — Objects, Spaces, Identities",
+  "description": "Halden & Vey is an independent design studio working across product, interior and identity. Six selected projects, 2021–2026. (A fictional studio: sample content for openwebx.)",
+  "lang": "en",
+  "items": [
+    {
+      "title": "Ōra Lamp",
+      "category": "Product design",
+      "year": "2026",
+      "client": "Lumen House (fictional)",
+      "description": "A table lamp carved from a single block of alabaster. Light passes through the stone rather than around it, so the lamp glows with the veining of the material itself. Dimming is controlled by turning the base, a gesture borrowed from winding a watch.",
+      "tags": ["Alabaster", "Lighting", "Limited edition"]
+    },
+    {
+      "title": "Salt House",
+      "category": "Interior",
+      "year": "2025",
+      "client": "Private residence, Hua Hin",
+      "description": "A seaside retreat finished in lime plaster, bleached oak and hand-woven rattan. Every opening frames a single horizon line; nothing competes with the sea. The palette changes with the tide as reflected light moves across the walls.",
+      "tags": ["Residential", "Lime plaster", "Coastal"]
+    },
+    {
+      "title": "Northfold",
+      "category": "Brand identity",
+      "year": "2025",
+      "client": "Northfold Paper Co.",
+      "description": "Identity for a paper mill reopening after forty years. The logotype is set on a fold: it only reads completely when the sheet is opened, echoing the moment a letter is unfolded. The system extends to watermarks, deckle edges and a colour range drawn from the mill's river.",
+      "tags": ["Identity", "Print", "Heritage"]
+    },
+    {
+      "title": "Tessel Chair",
+      "category": "Furniture",
+      "year": "2024",
+      "client": "Studio collection",
+      "description": "A dining chair assembled from eleven identical walnut components and no metal fixings. The joinery is exposed as the only ornament. Flat-packed, it ships in a box the size of a record sleeve.",
+      "tags": ["Walnut", "Joinery", "Flat-pack"]
+    },
+    {
+      "title": "Quiet Hours",
+      "category": "Exhibition",
+      "year": "2023",
+      "client": "A city design festival",
+      "description": "An installation of twelve rooms, each tuned to a different hour of the day through light temperature and sound. Visitors walked from dawn to midnight in fifteen minutes. More than forty thousand people passed through during the week.",
+      "tags": ["Installation", "Light", "Sound"]
+    },
+    {
+      "title": "Vey Monograph",
+      "category": "Editorial",
+      "year": "2021",
+      "client": "Self-published",
+      "description": "A 240-page monograph documenting the studio's first decade. Printed in two inks on uncoated stock, with a cover debossed from the studio's workbench surface.",
+      "tags": ["Book", "Two-colour print", "Archive"],
+      "url": "https://example.com/vey-monograph"
+    }
+  ]
+}

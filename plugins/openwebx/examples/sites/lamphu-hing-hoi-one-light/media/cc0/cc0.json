@@ -1,0 +1,26 @@
+{
+  "license": "CC0 1.0",
+  "source": "polyhaven.com",
+  "note": "Downsized by the builder: HDRI averaged 2x2 to 512x256 (flat RGBE); leather maps resized to 512 px; slate_floor dropped (slab is a procedural honed stone).",
+  "assets": [
+    {
+      "id": "studio_small_09",
+      "type": "hdri",
+      "res": "512 (from 1k)",
+      "files": {
+        "hdr": "media/cc0/hdri/studio_small_09_512.hdr"
+      },
+      "bytes": 524337
+    },
+    {
+      "id": "brown_leather",
+      "type": "texture",
+      "res": "512 (from 1k)",
+      "files": {
+        "diff": "media/cc0/tex/brown_leather/brown_leather_diff_512.jpg",
+        "nor_gl": "media/cc0/tex/brown_leather/brown_leather_nor_gl_512.jpg"
+      },
+      "bytes": 106546
+    }
+  ]
+}

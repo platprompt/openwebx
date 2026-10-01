@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="t">
+  <title id="t">Trail elevation profile</title>
+  <rect width="800" height="300" fill="#0f1412"/>
+  <g stroke="#2a332f" stroke-width="1">
+    <line x1="60" y1="60" x2="760" y2="60"/><line x1="60" y1="120" x2="760" y2="120"/>
+    <line x1="60" y1="180" x2="760" y2="180"/><line x1="60" y1="240" x2="760" y2="240"/>
+  </g>
+  <path d="M60 240 C140 232 170 215 220 200 S300 170 340 160 S420 120 470 112 S560 84 610 70 S700 56 760 52 L760 240 Z" fill="#c9a86a" fill-opacity=".14"/>
+  <path d="M60 240 C140 232 170 215 220 200 S300 170 340 160 S420 120 470 112 S560 84 610 70 S700 56 760 52" fill="none" stroke="#c9a86a" stroke-width="2.5"/>
+  <g fill="#e8e1d2" font-family="Georgia, serif" font-size="14">
+    <circle cx="60" cy="240" r="5" fill="#c9a86a"/><text x="68" y="266">Trailhead</text>
+    <circle cx="340" cy="160" r="4" fill="#c9a86a"/><text x="348" y="150">Rest point</text>
+    <circle cx="610" cy="70" r="4" fill="#c9a86a"/><text x="560" y="96">Ridge</text>
+    <circle cx="760" cy="52" r="6" fill="#c9a86a"/><text x="700" y="36">Summit</text>
+  </g>
+</svg>
