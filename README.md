@@ -6,10 +6,8 @@ strongest concept, writes a creative brief, builds a Three.js site on a tested
 runtime kit, and checks it in a real browser. Want a say? Add `--ask` and the
 decisions arrive as pop-up choices, each with a recommended answer.
 
-> บอกแค่ **ธีม** กับ **ไฟล์/โฟลเดอร์เนื้อหา** แล้ว AI จะเลือกคอนเซ็ปต์ที่ดีที่สุด
-> เขียนบรีฟ สร้างเว็บ 3D และตรวจงานในเบราว์เซอร์จริงให้เลย โดยไม่ถามอะไร
-> ถ้าอยากเลือกเองให้เติม `--ask` แล้วจะมีป็อปอัปพร้อมคำตอบแนะนำให้กดเลือก
-> เนื้อหาเดิมของคุณอยู่ครบทุกคำ และ SEO ครบถ้วน
+![An openwebx page: a mechanical watch in a night studio beside its text column](docs/images/hing-hoi-hero.jpg)
+<sub>The bundled example, rendered live in the browser. More below under [Example](#example).</sub>
 
 ```
 /openwebx:create "Lord of the Rings" ./content/my-seo-article.md
@@ -101,7 +99,18 @@ tests/test_pipeline.py         python -m unittest discover -s tests
 
 ## Example
 
-- [Hing Hoi](plugins/openwebx/examples/sites/lamphu-hing-hoi-one-light/present.html): a Thai product page for a fictional mechanical watch, shot as one night in a small studio (reading `beside`, procedural watch, light you hold).
+**Hing Hoi** ([open `present.html`](plugins/openwebx/examples/sites/lamphu-hing-hoi-one-light/present.html)):
+a product page for a fictional mechanical watch, staged as one night in a small
+product studio. The page text is Thai (the source content was Thai; any
+language works). Reading model `beside`, a procedural watch, and one light the
+reader holds: hold to charge the lume, release and the room goes dark.
+
+| Dial close-up | After the hold: the lume glows | Phone |
+| --- | --- | --- |
+| ![Dial close-up beside its chapter text](docs/images/hing-hoi-dial.jpg) | ![The twelve lume dots glowing after the light is released](docs/images/hing-hoi-lume.jpg) | ![The same page on a phone, world on top, text below](docs/images/hing-hoi-mobile.jpg) |
+
+Every frame is rendered live in the browser (Three.js); nothing is a
+pre-rendered image.
 
 The folder also contains `artifact.html` for Claude Artifacts and `serve.py`
 for local viewing. When this host does not expose Canvas, paste the complete
